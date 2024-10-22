@@ -1,9 +1,27 @@
-/* General Styles */
+/* General Styles - Dark Mode as Default */
 body {
   font-family: Arial, sans-serif;
-  background-color: #f8f9fa;
+  background-color: #001829; /* Dark blue background */
+  color: #ffffff; /* White text for dark background */
   margin: 0;
   padding: 0;
+  text-align: center;
+}
+
+header {
+  color: rgb(0, 255, 213);
+  font-size: 50px;
+}
+
+.header-image {
+  background-image: url("https://media.istockphoto.com/id/1410455925/vector/dynamic-blue-particle-wave-abstract-sound-visualization-digital-structure-of-the-wave-flow.jpg?s=612x612&w=0&k=20&c=RL7do3aEvte0cKukjC30eHQ4nujXUIOa2TvQbIN8eKw=");
+  background-size: cover;
+  background-position: center;
+  min-height: 20vh; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 
@@ -14,21 +32,23 @@ h1 {
 
 p {
   font-size: 24px;
+  color: #ffffff; /* White text for paragraphs */
 }
 
 /* Card Styles */
 .card {
   margin-bottom: 20px;
   border: none;
+  background-color: #00223d; /* Darker blue card background */
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1); /* White shadow */
   overflow: hidden; 
 }
 
 .card-img-top {
   width: 100%; 
   height: 200px; 
-  object-fit: contain; /* Change to 'contain' */
+  object-fit: contain; 
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   transition: transform 0.3s ease; 
@@ -45,28 +65,32 @@ p {
 .card-title {
   font-size: 1.25rem;
   margin-bottom: 10px;
+  color: #ffffff; /* White text for card titles */
 }
 
 .card-text {
   font-size: 1rem;
-  color: #6c757d;
+  color: #ffffff; /* White text for card text */
 }
 
 /* Form Styles */
 form {
-  background-color: #ffffff;
+  background-color: #002e4d; /* Darker blue input fields */
   padding: 20px;
   border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
 }
 
 .form-label {
   font-weight: bold;
+  color: #ffffff; /* White text for form labels */
 }
 
 .form-control,
 .form-select {
   border-radius: 5px;
+  background-color: #002e4d; /* Darker blue input fields */
+  color: #ffffff; /* White text in input fields */
 }
 
 .btn-primary {

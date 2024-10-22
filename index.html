@@ -7,10 +7,13 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css"> </head>
 <body>
-<h1>Tech Solutions</h1>
-    <p>Welcome to Tech Solutions!</p> <br>
-    <p>We offer 3 categories of technology services to choose from:</p>
-
+    <header>
+        <div class="header-image">
+          <h1>Tech Solutions</h1>
+          <p>Welcome to Tech Solutions!</p> <br>
+          <p>We offer 3 categories of technology services to choose from:</p>
+        </div>
+      </header>
     <div class="container">
         <div class="row">
             <div class="col-md-4 col-sm-12">
@@ -54,14 +57,21 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
+    <section class="about-us">
+        <div class="container">
+          <div class="row">
             <div class="col-lg-8">
-                </div>
+              <h2>About Us</h2>
+              <p>Tech Solutions is a leading provider of technology services designed to help businesses thrive in the digital age. We offer a comprehensive suite of solutions, including software engineering, cybersecurity, and data science, all tailored to meet the unique needs of our clients.</p>
+            </div>
             <div class="col-lg-4">
-                </div>
+              <h2>Testimonials</h2>
+            <p>"They never gave up, never let me down." -Rick Astley</p>
+            <p>"They're cooler than being cool. Their skills were ICE COLD!" -André Benjamin</p>
+            </div>
+          </div>
         </div>
-    </div>
+      </section>
 
     <div class="container">
         <form>
@@ -92,14 +102,29 @@
 
     <footer class="container">
         <div class="row">
-            <div class="col-lg-4">
-                </div>
-            <div class="col-lg-4">
-                </div>
-            <div class="col-lg-4">
-                </div>
+          <div class="col-lg-4">
+            <h3>Contact Us</h3>
+            <p>123 Main Street<br>Anytown, CA 12345<br>Email: info@techsolutions.com</p>
+          </div>
+          <div class="col-lg-4">
+            <h3>Social Media</h3>
+            <ul>
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">LinkedIn</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-4">
+            <h3>Newsletter Signup</h3>
+            <form>
+              <div class="mb-3">
+                <input type="email" class="form-control" id="newsletter-email" placeholder="Enter your email">
+              </div>
+              <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+          </div>
         </div>
-    </footer>
+      </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
